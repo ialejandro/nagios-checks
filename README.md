@@ -4,7 +4,7 @@
 Put into `/etc/pnp4nagios/templates/` directory.
 
 ## Checks
-**Check I/O Bandwidth**
+### Check I/O Bandwidth
 
 Requirements:
 * ifstat (apt-get install ifstat)
@@ -22,7 +22,7 @@ Result:
 I/O BANDWIDTH OK - input = 0.06KB/s output = 0.00KB/s | in=0.06KB/s;0.06;0.06;0 out=0.00KB/s;0.00;0.00;0
 ```
 
-**Check RAM (SWAP, FREE, USED...)**
+### Check RAM (SWAP, FREE, USED...)
 
 Usage:
 ```bash
